@@ -1,7 +1,7 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
-       <title>Software Company </title>
+       <title> Software Company </title>
        <body>
                <table border="2" cellspacing="10" cellpadding="6">
                        <caption> Top five highest revenue generating software companies </caption>
@@ -37,7 +37,7 @@ content = """
                        </tr>
 
                        </table>
-               </body>
+               </body>
 </html>
 """
 class myhandler(BaseHTTPRequestHandler):
